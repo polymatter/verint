@@ -1,4 +1,30 @@
-# Getting Started with Create React App
+# Verint Data Table
+## Requirements
+
+1. Create a semantic table component, with requirements listed below (tip: Create React App
+is great for bootstrapping applications)
+a. core requirements
+i. displays columns and data in a tabular format
+ii. clicking the button triggers an event to toggle visibility of the table
+iii. custom CSS to make it look presentable
+iv. clean, commented code
+b. bonus requirements
+i. emphasis on modern code (tip: try to find uses for react hooks, or better yet
+a custom hook)
+ii. add one extra thing of your choice (e.g. extra functionality and/or flair)
+2. Make sure the readme documents what you did, and how you did it (along with any build
+instructions)
+3. Provide us with the code for review (eg. a link to GitHub or zipped up project)
+
+## Approach
+
+- Created a simple DataTable component that displays some tabular data. I guess "semantic" means by using semantic tags like <thead> and the like rather than just doing everything with <div>'s
+- I used Create React App as suggested. So `npm start` starts a development server on http://localhost:3000 an `npm run build` builds the production code for deployment
+- Since there was no suggestion of what data to use I just found an approriate dataset to demonstrate.
+- Used simple logic in the App to display a button that can show or hide the table.
+## 
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +93,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->

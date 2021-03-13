@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+table {
+  border-collapse: collapse;
+  margin-left: 5vw;
+  width: 90%;
+}
+
+th {
+  background-color: blueviolet;
+  color: whitesmoke;
+}
+
+td, th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  text-align: left;
+}
