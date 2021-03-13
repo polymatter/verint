@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/verint/static/css/main.609e3417.chunk.css",
+    "main.js": "/verint/static/js/main.ec00d1ab.chunk.js",
+    "main.js.map": "/verint/static/js/main.ec00d1ab.chunk.js.map",
+    "runtime-main.js": "/verint/static/js/runtime-main.169a2e67.js",
+    "runtime-main.js.map": "/verint/static/js/runtime-main.169a2e67.js.map",
+    "static/js/2.facaeda5.chunk.js": "/verint/static/js/2.facaeda5.chunk.js",
+    "static/js/2.facaeda5.chunk.js.map": "/verint/static/js/2.facaeda5.chunk.js.map",
+    "static/js/3.8dddebf3.chunk.js": "/verint/static/js/3.8dddebf3.chunk.js",
+    "static/js/3.8dddebf3.chunk.js.map": "/verint/static/js/3.8dddebf3.chunk.js.map",
+    "index.html": "/verint/index.html",
+    "static/css/main.609e3417.chunk.css.map": "/verint/static/css/main.609e3417.chunk.css.map",
+    "static/js/2.facaeda5.chunk.js.LICENSE.txt": "/verint/static/js/2.facaeda5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.169a2e67.js",
+    "static/js/2.facaeda5.chunk.js",
+    "static/css/main.609e3417.chunk.css",
+    "static/js/main.ec00d1ab.chunk.js"
+  ]
+}
