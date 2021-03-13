@@ -13,18 +13,27 @@ function App() {
 
   // use the Effect hook and the State hook together in order to get data for the table
   // pass [] as the second parameter of useEffect to only update on initial render
-  const astroURL = 'http://api.open-notify.org/astros.json';
-  const [astros, setAstros] = useState({ people: [] });
-  useEffect(async () => {
-    const response = await axios(astroURL);
-    setAstros(response.data);
+  const countriesURL = 'http://api.nobelprize.org/v1/country.json';
+  const [countries, setCountries] = useState([]);
+  useEffect(() => {
+    async function fetchData() {
+      const response = await axios(countriesURL);
+      setCountries(response.data.countries);
+    }
+    fetchData();
   }, []);
+
+  const [filterText, setFilterText] = useState("");
+  const filterChange = event => {
+    setFilterText(event.target.value);
+  } 
 
   return (
     <div className="App">
-      <button onClick={toggleTableVisibility}>{isTableShown ? 'Hide' : 'Show'} Table</button>
+      <button className="tableToggle" onClick={toggleTableVisibility}>{isTableShown ? 'Hide' : 'Show'} Table</button>
+      <input type="text" onChange={filterChange} placeholder="Filter"/>
       { isTableShown &&
-        <DataTable headings={['name', 'craft']} items={astros.people} />
+        <DataTable headings={['name', 'code']} caption='Countries that have won Nobel Prizes' items={countries} filterText={filterText}/>
       }
     </div>
   );

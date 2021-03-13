@@ -37,8 +37,15 @@
   }
 }
 
+.tableToggle {
+  margin: 2rem;
+  border-radius: 2rem;
+  background-color: skyblue;
+}
+
 table {
   border-collapse: collapse;
+  border-radius: 1rem;
   margin-left: 5vw;
   width: 90%;
 }
